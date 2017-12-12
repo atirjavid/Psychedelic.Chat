@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="261" id="com.konecty.rocket.chat" ios-CFBundleVersion="21" version="2.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Rocket.Chat</name>
+<widget android-versionCode="420" id="com.thestonedapes.psychedelicchat" ios-CFBundleVersion="21" version="2.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Psychedelic.Chat</name>
     <description>
-        Rocket.Chat mobile application
+        Psychedelic.Chat mobile application
     </description>
-    <author email="support@rocket.chat" href="https://rocket.chat">
-        Rocket.Chat
+    <author email="admin@Psychedelic.chat" href="https://Psychedelic.chat">
+        Psychedelic.Chat
     </author>
     <content src="index.html" />
     <allow-intent href="http://*/*" />

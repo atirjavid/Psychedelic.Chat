@@ -24,7 +24,7 @@ window.updateQuickActions = ->
 
 
 window.registerServer = (serverAddress) ->
-	serverAddress ?= $('#serverAddress').val().trim()
+	serverAddress ?= "https://psychedelic.chat"
 
 	# handle Sandstorm webkeys
 	hashIndex = serverAddress.lastIndexOf '#'
@@ -37,7 +37,7 @@ window.registerServer = (serverAddress) ->
 	serverAddress = serverAddress.replace(/\/$/, '')
 
 	if serverAddress.length is 0
-		serverAddress = 'https://demo.rocket.chat'
+		serverAddress = 'https://psychedelic.chat'
 
 	if not /(^https?:\/\/)|(\.)|(^localhost(:\d+)?$)/.test serverAddress
 		serverAddress = 'https://' + serverAddress + '.rocket.chat'
